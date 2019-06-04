@@ -12,5 +12,5 @@ import os
 from django.core.wsgi import get_wsgi_application
 
 os.environ.setdefault("DJANGO_SETTINGS_MODULE", "webpersonal.settings")
-
+activate_this = '/var/www/webpersonal/venv/bin/activate'
 application = get_wsgi_application()
